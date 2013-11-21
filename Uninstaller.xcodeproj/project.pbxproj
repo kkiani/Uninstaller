@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E537F2717AA3692006C9D2E /* 1375356226_34382.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0E537F2617AA3692006C9D2E /* 1375356226_34382.icns */; };
+		0E537F2A17AA37C1006C9D2E /* ToolbarOpenTemplate.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E537F2917AA37C1006C9D2E /* ToolbarOpenTemplate.png */; };
+		0E537F2C17AA37FE006C9D2E /* toolbarNewFolder.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E537F2B17AA37FE006C9D2E /* toolbarNewFolder.png */; };
+		0E890DF317A935C4009F05EC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E890DF217A935C4009F05EC /* Cocoa.framework */; };
+		0E890DFD17A935C4009F05EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E890DFB17A935C4009F05EC /* InfoPlist.strings */; };
+		0E890DFF17A935C4009F05EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E890DFE17A935C4009F05EC /* main.m */; };
+		0E890E0317A935C4009F05EC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0E890E0117A935C4009F05EC /* Credits.rtf */; };
+		0E890E0617A935C4009F05EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E890E0517A935C4009F05EC /* AppDelegate.m */; };
+		0E890E0917A935C4009F05EC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E890E0717A935C4009F05EC /* MainMenu.xib */; };
+		0E890E1117A935C4009F05EC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E890E1017A935C4009F05EC /* SenTestingKit.framework */; };
+		0E890E1217A935C4009F05EC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E890DF217A935C4009F05EC /* Cocoa.framework */; };
+		0E890E1A17A935C5009F05EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E890E1817A935C5009F05EC /* InfoPlist.strings */; };
+		0E890E1D17A935C5009F05EC /* UninstallerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E890E1C17A935C5009F05EC /* UninstallerTests.m */; };
+		0E890E2917A936BA009F05EC /* toolbarDeleteTemplate.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0E890E2817A936BA009F05EC /* toolbarDeleteTemplate.tiff */; };
+		0E890E2B17A9373A009F05EC /* toolbarDeleteTemplate-1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0E890E2A17A9373A009F05EC /* toolbarDeleteTemplate-1.tiff */; };
+		0E890E2F17A937D5009F05EC /* toolbarNewFolder23.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E890E2E17A937D5009F05EC /* toolbarNewFolder23.png */; };
+		0E890E3717A93924009F05EC /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E890E3617A93924009F05EC /* ItemCell.m */; };
+		0EA8247317AA84090019285D /* toolbarfolder.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EA8247217AA84090019285D /* toolbarfolder.png */; };
+		0EA8247C17AA8FD20019285D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0EA8247B17AA8FD20019285D /* Credits.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E890E1317A935C4009F05EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E890DE517A935C4009F05EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E890DED17A935C4009F05EC;
+			remoteInfo = Uninstaller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E537F2617AA3692006C9D2E /* 1375356226_34382.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = 1375356226_34382.icns; sourceTree = "<group>"; };
+		0E537F2917AA37C1006C9D2E /* ToolbarOpenTemplate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToolbarOpenTemplate.png; sourceTree = "<group>"; };
+		0E537F2B17AA37FE006C9D2E /* toolbarNewFolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbarNewFolder.png; sourceTree = "<group>"; };
+		0E890DEE17A935C4009F05EC /* Uninstaller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uninstaller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E890DF217A935C4009F05EC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0E890DF517A935C4009F05EC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0E890DF617A935C4009F05EC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0E890DF717A935C4009F05EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0E890DFA17A935C4009F05EC /* Uninstaller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Uninstaller-Info.plist"; sourceTree = "<group>"; };
+		0E890DFC17A935C4009F05EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E890DFE17A935C4009F05EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E890E0017A935C4009F05EC /* Uninstaller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Uninstaller-Prefix.pch"; sourceTree = "<group>"; };
+		0E890E0217A935C4009F05EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0E890E0417A935C4009F05EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E890E0517A935C4009F05EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E890E0817A935C4009F05EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0E890E0F17A935C4009F05EC /* UninstallerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UninstallerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E890E1017A935C4009F05EC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0E890E1717A935C5009F05EC /* UninstallerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UninstallerTests-Info.plist"; sourceTree = "<group>"; };
+		0E890E1917A935C5009F05EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0E890E1B17A935C5009F05EC /* UninstallerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UninstallerTests.h; sourceTree = "<group>"; };
+		0E890E1C17A935C5009F05EC /* UninstallerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UninstallerTests.m; sourceTree = "<group>"; };
+		0E890E2817A936BA009F05EC /* toolbarDeleteTemplate.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = toolbarDeleteTemplate.tiff; sourceTree = "<group>"; };
+		0E890E2A17A9373A009F05EC /* toolbarDeleteTemplate-1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "toolbarDeleteTemplate-1.tiff"; sourceTree = "<group>"; };
+		0E890E2E17A937D5009F05EC /* toolbarNewFolder23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbarNewFolder23.png; sourceTree = "<group>"; };
+		0E890E3517A93924009F05EC /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
+		0E890E3617A93924009F05EC /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
+		0EA8247217AA84090019285D /* toolbarfolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbarfolder.png; sourceTree = "<group>"; };
+		0EA8247B17AA8FD20019285D /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E890DEB17A935C4009F05EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E890DF317A935C4009F05EC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E890E0B17A935C4009F05EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E890E1117A935C4009F05EC /* SenTestingKit.framework in Frameworks */,
+				0E890E1217A935C4009F05EC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E890DE317A935C4009F05EC = {
+			isa = PBXGroup;
+			children = (
+				0EA8247B17AA8FD20019285D /* Credits.rtf */,
+				0E537F2617AA3692006C9D2E /* 1375356226_34382.icns */,
+				0E890DF817A935C4009F05EC /* Uninstaller */,
+				0E890E1517A935C4009F05EC /* UninstallerTests */,
+				0E890DF117A935C4009F05EC /* Frameworks */,
+				0E890DEF17A935C4009F05EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E890DEF17A935C4009F05EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E890DEE17A935C4009F05EC /* Uninstaller.app */,
+				0E890E0F17A935C4009F05EC /* UninstallerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E890DF117A935C4009F05EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E890DF217A935C4009F05EC /* Cocoa.framework */,
+				0E890E1017A935C4009F05EC /* SenTestingKit.framework */,
+				0E890DF417A935C4009F05EC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E890DF417A935C4009F05EC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E890DF517A935C4009F05EC /* AppKit.framework */,
+				0E890DF617A935C4009F05EC /* CoreData.framework */,
+				0E890DF717A935C4009F05EC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0E890DF817A935C4009F05EC /* Uninstaller */ = {
+			isa = PBXGroup;
+			children = (
+				0E537F2B17AA37FE006C9D2E /* toolbarNewFolder.png */,
+				0E890E2A17A9373A009F05EC /* toolbarDeleteTemplate-1.tiff */,
+				0E890E2E17A937D5009F05EC /* toolbarNewFolder23.png */,
+				0E890E2817A936BA009F05EC /* toolbarDeleteTemplate.tiff */,
+				0E537F2917AA37C1006C9D2E /* ToolbarOpenTemplate.png */,
+				0EA8247217AA84090019285D /* toolbarfolder.png */,
+				0E890E0417A935C4009F05EC /* AppDelegate.h */,
+				0E890E0517A935C4009F05EC /* AppDelegate.m */,
+				0E890E0717A935C4009F05EC /* MainMenu.xib */,
+				0E890E3517A93924009F05EC /* ItemCell.h */,
+				0E890E3617A93924009F05EC /* ItemCell.m */,
+				0E890DF917A935C4009F05EC /* Supporting Files */,
+			);
+			path = Uninstaller;
+			sourceTree = "<group>";
+		};
+		0E890DF917A935C4009F05EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E890DFA17A935C4009F05EC /* Uninstaller-Info.plist */,
+				0E890DFB17A935C4009F05EC /* InfoPlist.strings */,
+				0E890DFE17A935C4009F05EC /* main.m */,
+				0E890E0017A935C4009F05EC /* Uninstaller-Prefix.pch */,
+				0E890E0117A935C4009F05EC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E890E1517A935C4009F05EC /* UninstallerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E890E1B17A935C5009F05EC /* UninstallerTests.h */,
+				0E890E1C17A935C5009F05EC /* UninstallerTests.m */,
+				0E890E1617A935C5009F05EC /* Supporting Files */,
+			);
+			path = UninstallerTests;
+			sourceTree = "<group>";
+		};
+		0E890E1617A935C5009F05EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E890E1717A935C5009F05EC /* UninstallerTests-Info.plist */,
+				0E890E1817A935C5009F05EC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E890DED17A935C4009F05EC /* Uninstaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E890E2017A935C5009F05EC /* Build configuration list for PBXNativeTarget "Uninstaller" */;
+			buildPhases = (
+				0E890DEA17A935C4009F05EC /* Sources */,
+				0E890DEB17A935C4009F05EC /* Frameworks */,
+				0E890DEC17A935C4009F05EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Uninstaller;
+			productName = Uninstaller;
+			productReference = 0E890DEE17A935C4009F05EC /* Uninstaller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E890E0E17A935C4009F05EC /* UninstallerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E890E2317A935C5009F05EC /* Build configuration list for PBXNativeTarget "UninstallerTests" */;
+			buildPhases = (
+				0E890E0A17A935C4009F05EC /* Sources */,
+				0E890E0B17A935C4009F05EC /* Frameworks */,
+				0E890E0C17A935C4009F05EC /* Resources */,
+				0E890E0D17A935C4009F05EC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E890E1417A935C4009F05EC /* PBXTargetDependency */,
+			);
+			name = UninstallerTests;
+			productName = UninstallerTests;
+			productReference = 0E890E0F17A935C4009F05EC /* UninstallerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E890DE517A935C4009F05EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = kiarash;
+			};
+			buildConfigurationList = 0E890DE817A935C4009F05EC /* Build configuration list for PBXProject "Uninstaller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0E890DE317A935C4009F05EC;
+			productRefGroup = 0E890DEF17A935C4009F05EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E890DED17A935C4009F05EC /* Uninstaller */,
+				0E890E0E17A935C4009F05EC /* UninstallerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E890DEC17A935C4009F05EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E890DFD17A935C4009F05EC /* InfoPlist.strings in Resources */,
+				0E890E0317A935C4009F05EC /* Credits.rtf in Resources */,
+				0E890E0917A935C4009F05EC /* MainMenu.xib in Resources */,
+				0E890E2917A936BA009F05EC /* toolbarDeleteTemplate.tiff in Resources */,
+				0E890E2B17A9373A009F05EC /* toolbarDeleteTemplate-1.tiff in Resources */,
+				0E890E2F17A937D5009F05EC /* toolbarNewFolder23.png in Resources */,
+				0E537F2717AA3692006C9D2E /* 1375356226_34382.icns in Resources */,
+				0E537F2A17AA37C1006C9D2E /* ToolbarOpenTemplate.png in Resources */,
+				0E537F2C17AA37FE006C9D2E /* toolbarNewFolder.png in Resources */,
+				0EA8247317AA84090019285D /* toolbarfolder.png in Resources */,
+				0EA8247C17AA8FD20019285D /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E890E0C17A935C4009F05EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E890E1A17A935C5009F05EC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E890E0D17A935C4009F05EC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E890DEA17A935C4009F05EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E890DFF17A935C4009F05EC /* main.m in Sources */,
+				0E890E0617A935C4009F05EC /* AppDelegate.m in Sources */,
+				0E890E3717A93924009F05EC /* ItemCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E890E0A17A935C4009F05EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E890E1D17A935C5009F05EC /* UninstallerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E890E1417A935C4009F05EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E890DED17A935C4009F05EC /* Uninstaller */;
+			targetProxy = 0E890E1317A935C4009F05EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E890DFB17A935C4009F05EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E890DFC17A935C4009F05EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0E890E0117A935C4009F05EC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E890E0217A935C4009F05EC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0E890E0717A935C4009F05EC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E890E0817A935C4009F05EC /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		0E890E1817A935C5009F05EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E890E1917A935C5009F05EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E890E1E17A935C5009F05EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0E890E1F17A935C5009F05EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0E890E2117A935C5009F05EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Uninstaller/Uninstaller-Prefix.pch";
+				INFOPLIST_FILE = "Uninstaller/Uninstaller-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0E890E2217A935C5009F05EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Uninstaller/Uninstaller-Prefix.pch";
+				INFOPLIST_FILE = "Uninstaller/Uninstaller-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0E890E2417A935C5009F05EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Uninstaller.app/Contents/MacOS/Uninstaller";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Uninstaller/Uninstaller-Prefix.pch";
+				INFOPLIST_FILE = "UninstallerTests/UninstallerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0E890E2517A935C5009F05EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Uninstaller.app/Contents/MacOS/Uninstaller";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Uninstaller/Uninstaller-Prefix.pch";
+				INFOPLIST_FILE = "UninstallerTests/UninstallerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E890DE817A935C4009F05EC /* Build configuration list for PBXProject "Uninstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E890E1E17A935C5009F05EC /* Debug */,
+				0E890E1F17A935C5009F05EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E890E2017A935C5009F05EC /* Build configuration list for PBXNativeTarget "Uninstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E890E2117A935C5009F05EC /* Debug */,
+				0E890E2217A935C5009F05EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E890E2317A935C5009F05EC /* Build configuration list for PBXNativeTarget "UninstallerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E890E2417A935C5009F05EC /* Debug */,
+				0E890E2517A935C5009F05EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E890DE517A935C4009F05EC /* Project object */;
+}
