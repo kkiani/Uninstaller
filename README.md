@@ -4,7 +4,7 @@ Uninstaller
 Esay and simple app in Objective-C with Cocoa for finding applications files and Complete uninstall apps
 
 ----------------------------------------------------------------------------------------------------------
-- * WARNING: If you make this code better please let me to see, contact me by kiarash.kiani.h@gmail.com  -
+WARNING: If you make this code better please let me to see
 ----------------------------------------------------------------------------------------------------------
 
 * This application is Complete APP for Mac OS X you can use it by compiling source or download from my website http://kiarash.info
